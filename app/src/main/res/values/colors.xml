@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="teal_dark">#324D3E</color>
+    <color name="teal_mid">#728A6E</color>
+    <color name="teal_accent">#B5C99A</color>
+    <color name="teal_light">#D9E4D7</color>
+    <color name="bg_dark">#E4E6D9</color>
+    <color name="bg_card">#AFB590</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray_light">#B0BEC5</color>
+    <color name="red_delete">#FF5252</color>
+</resources>

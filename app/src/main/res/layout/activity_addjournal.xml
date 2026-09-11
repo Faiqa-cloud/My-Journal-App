@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#0D1F1F">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/adamina"
+        android:gravity="center"
+        android:textColor="#D9E4D7"
+        android:text="Add Journal"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/adamina"
+        android:hint="Title"
+        android:textColorHint="#D9E4D7"
+        android:textColor="#D9E4D7"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/adamina"
+        android:hint="Description"
+        android:textColor="#D9E4D7"
+        android:textColorHint="#D9E4D7"
+        android:minHeight="70dp"
+        android:textSize="20sp"
+/>
+    <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/savebtn"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btnteal"
+            android:fontFamily="@font/adamina"
+            android:text="Save   Journal" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bcktohomebtn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btnteal"
+        android:fontFamily="@font/adamina"
+        android:text="Back   to   Home" />
+
+
+</LinearLayout>
